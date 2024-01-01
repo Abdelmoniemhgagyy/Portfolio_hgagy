@@ -11,11 +11,15 @@ function Header() {
   })
   return (
     <div className='header'>
-      <div className="top_header" data-aos="fade-down">
+
+
+      <div className="top_header" data-aos="fade-down"></div>
+
+
           <div className="logo"><img src={logo} alt='logo'/><span>Abdelmoniem</span>
-          </div>
+          <div className="logo"><img src={logo}/><span>Abdelmoniem</span> </div>
           <Navbar/>
-      </div>
+          </div>
       <div className="bottom_header">
         <div className="img-me" data-aos="fade-left">
         <img src={logoDark} alt="" />
@@ -54,8 +58,7 @@ function Header() {
           {/* <i class="bi bi-file-person-fill"></i> */}
       
          <a href="https://drive.google.com/file/d/1v2-mkSt-IMuMviUmRp9SZ2b3xRUwCseS/view?usp=sharing" target=' _blank '><i class="bi bi-eye-fill"></i> </a>
-         <a href="https://docs.google.com/uc?export=download&id=1v2-mkSt-IMuMviUmRp9SZ2b3xRUwCseS" target=' _blank '>
-           <i class="bi bi-download" ></i></a>
+         <a href="https://docs.google.com/uc?export=download&id=1v2-mkSt-IMuMviUmRp9SZ2b3xRUwCseS" target=' _blank '> <i class="bi bi-download" ></i></a>
          
          
         
@@ -64,10 +67,8 @@ function Header() {
       </div>
         </div>
       </div>
-      
-      
-      
       </div>
+    
   )
 }
 

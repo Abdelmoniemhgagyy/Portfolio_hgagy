@@ -10,7 +10,7 @@ function Navbar() {
         <ul className='navbar'>
           <li onClick={()=> setList(!list)}><NavLink to="/">Home</NavLink></li>
           <li onClick={()=> setList(!list)}><NavLink to="/skills">Skills</NavLink></li>
-          <li onClick={()=> setList(!list)}><NavLink to="/about">About</NavLink></li>
+          <li onClick={()=> setList(!list)}><NavLink to="/educations">Educations</NavLink></li>
         </ul>
       
       </nav>

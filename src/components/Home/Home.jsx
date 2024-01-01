@@ -32,7 +32,7 @@ console.log(dataSelection)
       <select >
         
         <option value="all">All Projects </option>
-        <option value="react">React Js & React Ts</option>
+        <option value="react">React</option>
         <option value="js">Js</option>
         <option value="bootstrap">Bootstrap</option>
         <option value="tailwind">Tailwind</option>
