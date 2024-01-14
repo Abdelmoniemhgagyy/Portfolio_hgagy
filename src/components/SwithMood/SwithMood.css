@@ -1,0 +1,17 @@
+.dark {
+  --main-color:#000;
+  --secondary-color:#fff;
+  --text-color:#ffffff;
+  --background-color:#777;
+}
+.main-container-mood{
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 999;
+  transition:.3s;
+  cursor: pointer;
+}
+.main-container-mood i {
+  color: #fff;
+}

@@ -1,0 +1,32 @@
+.home-container{
+    margin-top: 100px ;
+    padding: 40px;
+}
+
+.home-container select {
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    margin-inline: auto;
+    width: 40%;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+.home-container select option {
+    padding: 10px;
+}
+
+.home-container select:focus{
+    border: none;
+    outline: none;
+}
+
+
+@media(max-width:720px){
+    .home-container select {
+        width: 50%;
+    }
+}
