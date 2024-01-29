@@ -1,8 +1,9 @@
 import { useEffect } from 'react'
 import Navbar from './Navbar'
 import "./Header.css"
-import logo from "./hacker1.png"
-import logoDark from "./1.png"
+import logo from "../../assest/logo.png"
+
+import PersonalImg from "../../assest/me.png"
 import Aos from "aos"
 import "aos/dist/aos.css"
 function Header() {
@@ -13,14 +14,15 @@ function Header() {
     <div className='header'>
 
 
-<div className="top_header" data-aos="fade-down">
-          <div className="logo"><img src={logo}/><span>Abdelmoniem</span>
+<div className="top_header " data-aos="fade-down">
+          <div className="logo"><img src={logo}/><span className='h-full mt-[17px]'>Abdelmoniem</span>
+          
           </div>
           <Navbar/>
       </div>
       <div className="bottom_header">
         <div className="img-me" data-aos="fade-left">
-        <img src={logoDark} alt="" />
+        <img src={PersonalImg} alt="my photo" />
         </div>
         
         <div className="personal_info">

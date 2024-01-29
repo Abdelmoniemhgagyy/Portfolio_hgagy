@@ -1,8 +1,10 @@
-import React from 'react'
+/* eslint-disable react/jsx-key */
 import "./Projects.css"
 
+// eslint-disable-next-line react/prop-types
 function Projects({dataSelection}) {
 
+  const newLocal = "_blank"
   return (
     <>
     
@@ -14,32 +16,23 @@ function Projects({dataSelection}) {
       
       <div className="project-info">
       <h2 >{item.title}</h2>
-      <p><i class="bi bi-caret-right-fill"></i>{item.description}</p>
+      <p><i className="bi bi-caret-right-fill"></i>{item.description}</p>
 
       <ul>
-      {item.used.map((ele => <li>#{ele}</li>))}
+      {item.used.map((ele => <li># {ele}</li>))}
       </ul>
 
       <div className="project_links">
           <div className="project_link">
-            <a href={item.url_live} target= "_blank" ><i class="bi bi-globe"></i><span>Live Site</span></a>  
+            <a href={item.url_live} target= {newLocal} rel="noreferrer" ><i className="bi bi-globe"></i><span>Live Site</span></a>  
           </div>
           <div className="project_link">
-            <a href={item.url_repo} target= "_blank"><i class="bi bi-github"></i><span>Client Side</span></a>
+            <a href={item.url_repo} target= "_blank" rel="noreferrer"><i className="bi bi-github"></i><span>Client Side</span></a>
           </div>
         </div>
-
-
       </div>
 
-     
-      
       </div>)}
-
-  
-
-    
-
    
     </>
   )

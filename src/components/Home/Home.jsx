@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Home.css"
 import Projects from "../Projects/Projects"
 import data from "../../data/projects"
@@ -26,11 +25,9 @@ function Home() {
 console.log(dataSelection)
   return (
     <div className='home-container' onChange={(e)=>setSelectValue(e.target.value)}>
-
 {/* ({dataSelection.length}) */}
 
       <select >
-        
         <option value="all">All Projects </option>
         <option value="react">React</option>
         <option value="js">Js</option>

@@ -17,6 +17,7 @@
     align-items: center;
     text-transform: uppercase;
     color: #fff;
+    height: 35px;
 }
 
 .logo img {
@@ -213,7 +214,7 @@ nav{
     .main-container-mood i {
         color: #fff;
         position: absolute;
-        top: 14px;
+        top: 16px;
         right: -9px;
     }
     .bi-x-lg{
