@@ -188,29 +188,42 @@ export const personal_skills = [
                 title:"React Material UI & Tailwind Preline",
             },
             {
-                id:4,
-                title:"Typescript with Elzero Web School & ByteGrad & index Academy",
-            },
-            {
                 id:5,
                 title:"Front End with Elzero Web School (May 2023)",
             },
             {
+                id:16,
+                title:"MS SQL Server With Dr-Mohammed Eldsoky (2024)",
+            },
+            {
                 id:6,
-                title:"Python with Rekwan & Abdelrhman gmall (2022-2023)",
+                title:"Python with Elzero Web School ( March 2024)",
+            },
+            {
+                id:17,
+                title:"Python OOP With Codezilla (2024)",
             },
             {
                 id:7,
                 title:"Tailwind & Bootstrap",
             },
             {
+                id:4,
+                title:"Typescript with Elzero Web School & ByteGrad & index Academy",
+            },
+            {
                 id:8,
                 title:"Cmd with Elzero Web School",
+            },
+            {
+                id:18,
+                title:"Dart with Wael Abo Hamza (May 2024)",
             },
             {
                 id:9,
                 title:"c++ & c",
             },
+
             {
                 id:10,
                 title:"Eduvate Distribution course '3rd best member & best team' (July 2022)",
