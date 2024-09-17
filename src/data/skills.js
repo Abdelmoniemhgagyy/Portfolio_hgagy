@@ -2,6 +2,7 @@ const data = [
   { id: 1, name: "React", image: "./data/skills/react.png" },
   { id: 2, name: "Redux", image: "./data/skills/redux.png" },
   { id: 3, name: "Material Ui", image: "./data/skills/material-ui.png" },
+  { id: 26, name: "Odoo", image: "./data/skills/odoo.png" },
   { id: 10, name: "Python", image: "./data/skills/python.png" },
   { id: 19, name: "Sql", image: "./data/skills/database.png" },
   { id: 4, name: "Bootstrap", image: "./data/skills/bootstrap.png" },

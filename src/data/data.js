@@ -58,6 +58,10 @@ export const contact =[
 
 export const technical_skills = [
     {
+        id:13,
+        title:"Odoo",
+    },
+    {
         id:1,
         title:"React",
     },
@@ -175,6 +179,10 @@ export const personal_skills = [
         ] 
 
         export const cources =[
+            {
+                id:16,
+                title:"Odoo with Odoo Mates & ITI Online Course",
+            },
             {
                 id:1,
                 title:"React with Unique Coderz Academy & Simple Arab Code & Youssef Abbas",

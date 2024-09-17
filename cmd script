@@ -1,0 +1,5 @@
+ docker build -t my-port .
+
+sudo docker run -p 5173:5173 my-port
+
+http://localhost:5173/

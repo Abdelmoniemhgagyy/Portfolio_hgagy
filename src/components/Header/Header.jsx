@@ -28,7 +28,7 @@ function Header() {
         <div className="personal_info">
           <div className="personal_info_top">
             <h2 data-aos="fade-right">Abdelmoniem Hgagy</h2>
-            <p data-aos="fade-right">I'm Front end developer</p>
+            <p data-aos="fade-right">I'm Full Stack Developer </p>
           </div>
           <div className="personal_info_bottom" data-aos="fade-up">
             <div className="personal_info_bottom_key">
