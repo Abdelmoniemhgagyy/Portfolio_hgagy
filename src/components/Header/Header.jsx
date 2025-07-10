@@ -57,8 +57,8 @@ function Header() {
           <a href="https://t.me/hgagq" target=' _blank '><i className="bi bi-telegram"></i></a>
           {/* <i class="bi bi-file-person-fill"></i> */}
       
-         <a href="https://drive.google.com/file/d/1-VVcYFpGwv-gmhpbuo4n6Pt_su46_YEI/view?usp=drive_link" target=' _blank '><i className="bi bi-eye-fill"></i> </a>
-         <a href="https://docs.google.com/uc?export=download&id=1-VVcYFpGwv-gmhpbuo4n6Pt_su46_YEI" target=' _blank '> <i className="bi bi-download" ></i></a>
+         <a href="https://drive.google.com/file/d/16TUXcVl1V0-LslDTt5PCoFSgBtapP0LG/view" target=' _blank '><i className="bi bi-eye-fill"></i> </a>
+         <a href="https://docs.google.com/uc?export=download&id=16TUXcVl1V0-LslDTt5PCoFSgBtapP0LG" target=' _blank '> <i className="bi bi-download" ></i></a>
          
          
         
